@@ -149,8 +149,9 @@ class TimePickerSheet extends TimePicker {
       saveButtonText: saveButtonText,
       saveButtonColor: saveButtonColor,
       twoDigit: twoDigit,
-      child: SizedBox(
+      child: Container(
         height: halfOfScreen,
+        color: Color(0xFF04446C),
         child: SafeArea(
           child: Column(
             children: [
